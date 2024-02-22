@@ -6,7 +6,7 @@ A great help when shopping at the grocery store. Plan your shopping at home by a
 This is a web application but can easily be configured to act as a mobile app on your Android or iPhone by "Add to Home Screen" (see screenshot below). 
 
 <br/>
-<img src="screen-shot.jpg" alt="Screenshot." width="300px"/>
+<img src="screen-shot.jpg" alt="Screenshot." width="260px"/>
 
 ## Technologies
 - HTML
