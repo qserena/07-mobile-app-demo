@@ -12,9 +12,10 @@ This is a web application but can easily be configured to act as a mobile app on
 - HTML
 - CSS
 - JavaScript
+- Firebase database
 
 ## Live link
 The app is deployed here:
 [https://mob-app-demo.netlify.app](https://mob-app-demo.netlify.app)
 
-Please feel free to visit!
+Please feel free to visit and click around!
