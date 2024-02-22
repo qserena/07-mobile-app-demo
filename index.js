@@ -9,7 +9,7 @@ import {
 
 const appSettings = {
 	databaseURL:
-		'https://add-to-cart-bfd2f-default-rtdb.europe-west1.firebasedatabase.app',
+		'https://add-to-cart-demo-1ee1c-default-rtdb.europe-west1.firebasedatabase.app/',
 }
 
 const app = initializeApp(appSettings)
