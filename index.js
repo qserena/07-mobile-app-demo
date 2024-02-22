@@ -19,7 +19,6 @@ const shoppingListInDB = ref(database, 'shoppingList')
 const inputFieldEl = document.getElementById('input-field')
 const addButtonEl = document.getElementById('add-button')
 const shoppingListEl = document.getElementById('shopping-list')
-const removedItems = []
 
 addButtonEl.addEventListener('click', function () {
 	if (inputFieldEl.value !== '') {
