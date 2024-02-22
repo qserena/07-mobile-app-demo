@@ -9,7 +9,7 @@ import {
 
 const appSettings = {
 	databaseURL:
-		'https://realtime-database-cbd16-default-rtdb.europe-west1.firebasedatabase.app',
+		'https://add-to-cart-bfd2f-default-rtdb.europe-west1.firebasedatabase.app',
 }
 
 const app = initializeApp(appSettings)
@@ -41,10 +41,6 @@ onValue(shoppingListInDB, function (snapshot) {
 			let currentItemValue = currentItem[1]
 			appendItemToShoppingListEl(currentItem)
 		}
-		console.log(removedItems)
-		for (let item of removedItems) {
-			shoppingListEl.innerHTML += `<p>${item}</p>`
-		}
 	} else {
 		shoppingListEl.innerHTML = 'Korgen är tom'
 	}
@@ -60,7 +56,6 @@ function appendItemToShoppingListEl(item) {
 	newEl.addEventListener('click', function () {
 		let exactLocationOfItemInDB = ref(database, `shoppingList/${itemID}`)
 		remove(exactLocationOfItemInDB)
-		removedItems.push(itemValue)
 	})
 
 	shoppingListEl.append(newEl)
